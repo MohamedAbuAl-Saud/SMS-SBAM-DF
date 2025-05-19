@@ -44,7 +44,7 @@ pkg update && pkg upgrade
 pkg install python git
 pkg install python3
 pip install requests pyfiglet termcolor
-git clone https://github.com/MohamedAbuAl-Saud/SMS-SBAM-DF/
+git clone https://github.com/MohamedAbuAl-Saud/SMS-SBAM-DF.git
 cd SBAM-SMS-DF
 pip install -r requirements.txt
 python3 sms.py
@@ -55,7 +55,7 @@ For Kali Linux / Debian:
 sudo apt update && sudo apt upgrade
 sudo apt install python3 python3-pip git -y
 pip3 install requests pyfiglet termcolor
-git clone https://github.com/MohamedAbuAl-Saud/SMS-SBAM-DF/
+git clone https://github.com/MohamedAbuAl-Saud/SMS-SBAM-DF.git
 cd SBAM-SMS-DF
 pip install -r requirements.txt
 python3 sms.py
@@ -74,7 +74,7 @@ For Windows:
 
 ```
 pip install requests pyfiglet termcolor
-git clone https://github.com/MohamedAbuAl-Saud/SMS-SBAM-DF/
+git clone https://github.com/MohamedAbuAl-Saud/SMS-SBAM-DF.git
 cd SBAM-SMS-DF
 pip install -r requirements.txt
 python3 sms.py
